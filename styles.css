@@ -147,6 +147,75 @@ overflow: hidden;
     cursor: pointer;
     margin: 2px 5px;
 }
+/*
+Drawer 
+
+*/
+.drawer-container
+{
+    width: auto;
+    margin: 10px;
+    height:400px;
+    background-color: var(--containercolor);
+    display: flex;
+    justify-content: center;
+
+}
+
+.drawer-box
+{
+    margin: 15px 0px;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px #888888;
+
+}
+.drawer-box h5
+{
+    padding: 15px 0px 0px 15px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.drawer-box small
+{
+    padding: 10px 0px 0px 15px;
+    font-size: 1rem;  
+}
+.drawer-box .icons-drawer{
+    margin: 18px 40px 15px 10px;
+    font-size: 25px;
+}
+.icons-title
+{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.drawer-content
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.drawer-content:hover
+{
+    /* margin:10px; */
+    background-color: #EAEAEA;
+    cursor: pointer;
+    transform: scale(1.03);
+    border-radius: 10%;
+}
+.drawer-content:active
+{
+    color: #6200ee;
+   
+}
 
 
 /*
