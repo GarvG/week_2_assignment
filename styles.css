@@ -299,8 +299,50 @@ BADGE
     border-radius: 50%;
     height: 15px;
     width: 20px;
-    
+    }
+
+ .disable-badge
+ {
+     height:30px;
+     width: 40px;
+     /* margin: 20px 15px 0px 30px; */
+        /* border: none; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items:center; 
+        /* margin:0px 0px 0px 10px; */
+       
+      
+
+ }   
+ .disable-badge-icon
+ {
+     position: absolute;
+     top:-10px;
+     right:-10px;
+     background-color: #3f51b5;
+     
+     height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 4px;
+ }
+ .disable-badge--content
+ {
+     margin: 10px 5px 0px 30px;
+    font-size: 1rem;
+    font-weight: 500;
 
 }
-
+ 
+.disable-badge:hover
+{
+    color:#C1A3A3;
+    transform: scale(1.03);
+    cursor: pointer;
+       
+}
 
